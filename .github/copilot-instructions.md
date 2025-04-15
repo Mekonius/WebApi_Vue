@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This workspace contains an ASP.NET Core WebAPI backend (PizzaStoreAPI) and a Vue.js frontend (pizza-frontend). When generating code, ensure API calls from the frontend use the correct backend URL and CORS is considered during development.
