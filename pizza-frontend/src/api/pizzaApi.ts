@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Pizza } from '../types/pizza';
 
-const API_URL = 'http://localhost:5000/api/pizzas';
+const API_URL = 'http://localhost:5157/api/pizzas';
 
 export async function getPizzas(): Promise<Pizza[]> {
   const res = await axios.get(API_URL);
